@@ -1,40 +1,42 @@
-title:            Dreampie
-description:      The dreampie blogs.
-disqus_shortname: dreampie
+title:            Site Title
+description:      Describe your website here.
+disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
 url:
 
 # Owner/author information
 owner:
-  name:           王仁辉
+  name:           Your Name
   avatar:         avatar.jpg
-  bio:            "一个从事互联网行业的软件工程师."
-  email:          wangrenhui1990@gmail.com
+  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  twitter:        
   facebook:       
-  github:         dreampie
+  github:         
   stackexchange:  
   linkedin:       
-  instagram:        
+  instagram:      
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:
+  google_plus:    +yourid
 
 # Background image to be tiled on all pages
-background:
+background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics:   
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
+timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown

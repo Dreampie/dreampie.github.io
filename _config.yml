@@ -12,13 +12,9 @@ url: http://dreampie.github.io/
 owner:
   name:           王仁辉
   avatar:         avatar.jpg
-<<<<<<< Updated upstream
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-=======
   #Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.
   bio:            "从事互联网行业技术管理岗位."
   #you@email.com
->>>>>>> Stashed changes
   email:          wangrenhui1990@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        

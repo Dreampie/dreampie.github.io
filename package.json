@@ -1,13 +1,13 @@
 {
-  "name": "hpstr-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
+  "name": "Dreampie",
+  "author": "王仁辉 <wangrenhui1990@gmail.com>",
+  "homepage": "https://github.com/Dreampie",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/hpstr-jekyll-theme.git"
+    "url": "git://github.com/Dreampie/dreampie.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/mmistakes/hpstr-jekyll-theme/issues"
+    "url": "https://github.com/Dreampie/dreampie.github.io/issues"
   },
   "engines": {
     "node": ">= 0.10.0"

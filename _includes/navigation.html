@@ -21,7 +21,7 @@
 					<a href="http://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-facebook"></i> Facebook</a>
 				</li>{% endif %}
 				{% if site.owner.google_plus %}<li>
-					<a href="{{ site.owner.google_plus }}"><i class="fa fa-google-plus"></i> Google+</a>
+					<a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-google-plus"></i> Google+</a>
 				</li>{% endif %}
 				{% if site.owner.linkedin %}<li>
 					<a href="http://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a>
@@ -50,6 +50,13 @@
 				<li><a href="{{ site.url }}/tags/">All Tags</a></li>
 			</ul>
 		</li>
-		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+		{% for link in site.data.navigation %}
+	    {% if link.url contains 'http' %}
+	        {% assign domain = '' %}
+	        {% else %}
+	        {% assign domain = site.url %}
+	    {% endif %}
+	    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+	  {% endfor %}
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->

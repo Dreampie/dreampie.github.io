@@ -1,6 +1,6 @@
 title:            Dreampie
 description:      Dreampie Blog.
-disqus_shortname: 
+disqus_shortname:
 reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
@@ -12,8 +12,10 @@ owner:
   #Your Name
   name:           Dreampie
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          wangrenhui1990@gmail.com#you@email.com
+  #Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice
+  bio:            "从事互联网行业，就职于技术管理岗位."
+  #you@email.com
+  email:          wangrenhui1990@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       

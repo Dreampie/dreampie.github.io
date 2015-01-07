@@ -14,7 +14,8 @@
 
 {% if page.image.feature %}
 <div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+  <!--{% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div>&lt;!&ndash; /.image-credit &ndash;&gt;{% endif %}-->
+  <div class="image-credit">Github: <a href="http://github.com/{{ site.owner.github }}">{{ site.owner.github }}</a></div>
   <div class="entry-image">
     <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
   </div><!-- /.entry-image -->

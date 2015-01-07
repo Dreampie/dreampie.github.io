@@ -19,7 +19,6 @@ restful的api设计，是作为restful的服务端最佳选择（使用场景：
 
 独有优点：
 
-
 1.极简的route设计:
 
 ```java

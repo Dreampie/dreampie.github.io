@@ -9,8 +9,6 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-### resty 一款极简的restful轻量级的web框架
-
 
 拥有jfinal,activejdbc一样的activerecord的简洁设计，使用更简单的restful框架
 
@@ -20,14 +18,14 @@ restful的api设计，是作为restful的服务端最佳选择（使用场景：
 
 1.极简的route设计:
 
-```java
+{% highlight java %}
   @GET("/users/:name")  在路径中自定义解析的参数 如果有其他符合 也可以用 /users/{name}
   // 参数名就是方法变量名  除路径参数之外的参数也可以放在方法参数里  传递方式 user={json字符串}
   public Map find(String name,User user) {
     // return Lister.of(name);
     return Maper.of("k1", "v1,name:" + name, "k2", "v2");//返回什么数据直接return，完全融入普通方法的方式
   }
-```
+{% endhighlight %}
 
 2.支持多数据源和嵌套事务（使用场景：需要访问多个数据库的应用，或者作为公司内部的数据中间件向客户端提供数据访问api等）
 

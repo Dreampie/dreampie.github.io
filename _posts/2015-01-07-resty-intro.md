@@ -12,11 +12,11 @@ image:
 resty 一款极简的restful轻量级的web框架
 ===========
 
-拥有jfinal，activejdbc一样的activerecord的简洁设计，使用更简单的restful框架
+拥有jfinal,activejdbc一样的activerecord的简洁设计，使用更简单的restful框架
 
-restful的api设计，是作为restful的服务端最佳选择（使用场景：客户端和服务端解藕，用于对静态的html客户端（mvvm等），ios，andriod等提供服务端的api接口）
+restful的api设计，是作为restful的服务端最佳选择（使用场景：客户端和服务端解藕,用于对静态的html客户端（mvvm等）,ios,andriod等提供服务端的api接口）
 
-独有优点：
+独有优点:
 
 1.极简的route设计:
 
@@ -59,16 +59,13 @@ public void configInterceptor(InterceptorLoader interceptorLoader) {
   //权限拦截器 放在第一位 第一时间判断 避免执行不必要的代码
   interceptorLoader.add(new SecurityInterceptor(new MyAuthenticateService()));
 }
-
 //实现接口
 public class MyAuthenticateService implements AuthenticateService {
   //登陆时 通过name获取用户的密码和权限信息
   public Principal findByName(String name) {
     DefaultPasswordService defaultPasswordService = new DefaultPasswordService();
 
-    Principal principal = new Principal(name, defaultPasswordService.hash("123"), new HashSet<String>() {{
-      add("api");
-    }});
+    Principal principal = new Principal(name, defaultPasswordService.hash("123"), new HashSet<String>() {{add("api");}});
     return principal;
   }
   //基础的权限总表  所以的url权限都放在这儿  你可以通过 文件或者数据库或者直接代码 来设置所有权限

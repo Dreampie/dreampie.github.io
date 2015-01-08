@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 极简Restful框架最佳推荐->Resty
+title: 极简Restful轻量级web框架最佳推荐->Resty
 description: "秉持不让开发人员多写一行代码的理念，所有设计都是最简洁的，restful，最轻便，最精简，入门低的框架Resty."
 modified: 2015-01-07
 tags: [极简Restful框架Resty]
@@ -10,7 +10,7 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-resty 一款restful的轻量级的web框架
+resty 一款极简的restful轻量级的web框架
 ===========
 
 拥有jfinal，activejdbc一样的activerecord的简洁设计，使用更简单的restful框架

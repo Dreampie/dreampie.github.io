@@ -14,6 +14,8 @@ image:
 
 restful的api设计，是作为restful的服务端最佳选择（使用场景：客户端和服务端解藕,用于对静态的html客户端（mvvm等）,ios,andriod等提供服务端的api接口）
 
+源码链接: [Resty][1]
+
 独有优点:
 
 1.极简的route设计:
@@ -146,3 +148,5 @@ public class MyAuthenticateService implements AuthenticateService {
 注意:推荐idea作为开发ide，使用分模块的多module开发
 
 
+
+  [1]: https://github.com/Dreampie/resty

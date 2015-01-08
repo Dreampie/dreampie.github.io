@@ -2,8 +2,7 @@
 layout: post
 title: 极简Restful轻量级web框架最佳推荐->Resty
 description: "秉持不让开发人员多写一行代码的理念，所有设计都是最简洁的，restful，最轻便，最精简，入门低的框架Resty."
-modified: 2015-01-07
-tags: [极简Restful框架Resty]
+tags: [极简,Restful,框架,java,Resty]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz

@@ -32,7 +32,7 @@ restful的api设计，是作为restful的服务端最佳选择（使用场景：
 {% endraw %}
 {% endhighlight %}
 
-2.极简的activerecord设计，数据操作只需短短的一行
+2.极简的activerecord设计，数据操作只需短短的一行，支持批量保存对象
 
 {% highlight java linenos %}
 {% raw %}

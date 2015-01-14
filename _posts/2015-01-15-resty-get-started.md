@@ -9,7 +9,6 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
---
 Resty的相关特性，这里就不介绍了，我们直接用Resty+MVVM来开发一个简单的单页应用 [Resty简介](http://resty.dreampie.cn)
 
 推荐使用的开发工具 [IntelliJ IDEA](http://www.jetbrains.com/idea/download/) + [Git](http://www.git-scm.com/downloads) + [Maven](http://maven.apache.org/download.cgi)
@@ -20,6 +19,7 @@ Resty的相关特性，这里就不介绍了，我们直接用Resty+MVVM来开�
 * [使用MVVM实现客户端对接服务端的api](#client)
 
 ###设计服务端Api
+<span id="server"></span>
 * Api规范，url中带上api版本号，使用复数名词作为接口，使用httpMethod作为操作标识
 
  * ```GET /users - 获取 users 列表```
@@ -48,4 +48,5 @@ Resty的相关特性，这里就不介绍了，我们直接用Resty+MVVM来开�
  * ```DELETE /api/v1.0/bugs/#id 删除一个bug信息```
 
 ###创建一个Restful的服务端程序
+
 

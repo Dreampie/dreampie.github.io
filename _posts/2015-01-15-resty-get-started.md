@@ -19,6 +19,7 @@ Resty的相关特性，这里就不介绍了，我们直接用Resty+MVVM来开�
 * [使用MVVM实现客户端对接服务端的api](#client)
 
 <span id="server"></span>
+
 ###设计服务端Api
 
 * Api规范，url中带上api版本号，使用复数名词作为接口，使用httpMethod作为操作标识
@@ -53,5 +54,6 @@ Resty的相关特性，这里就不介绍了，我们直接用Resty+MVVM来开�
 
 
 <span id="client"></span>
+
 
 

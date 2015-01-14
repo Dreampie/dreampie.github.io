@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 极简Restful轻量级web框架最佳实践->Resty
+title: Resty 开发指南
 description: "秉持不让开发人员多写一行代码的理念，所有设计都是最简洁的，restful，最轻便，最精简，入门低的框架Resty."
 tags: [极简,Restful,框架,java,Resty]
 image:
@@ -9,7 +9,6 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-#Resty 开发指南
 --
 Resty的相关特性，这里就不介绍了，我们直接用Resty+MVVM来开发一个简单的单页应用 [Resty简介](http://resty.dreampie.cn)
 
@@ -50,4 +49,3 @@ Resty的相关特性，这里就不介绍了，我们直接用Resty+MVVM来开�
 
 ###创建一个Restful的服务端程序
 
- 

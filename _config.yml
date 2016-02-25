@@ -1,6 +1,6 @@
 title:            Dreampie's Blog
 description:      一个技术记录和插件教程的博客.
-disqus_shortname: dreampie
+disqus_shortname: Dreampie
 reading_time:     true
 words_per_minute: 200
 url:              //dreampie.github.io
@@ -14,7 +14,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:       
-  github:         dreampie
+  github:         Dreampie
   stackexchange:  
   linkedin:       
   instagram:        
